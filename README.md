@@ -46,7 +46,10 @@ Autopilot on with both the Localizer and Glideslope armed, which means they will
 
 LOC:
 
-This turns the aircraft onto the center of the runway axis, but does not influence the altitude, it only makes sure you are alligned with the runway. The X-Axis of the runway.
+This turns the aircraft onto the center of the runway axis, but does not influence the altitude, it only makes sure you are alligned with the runway. 
+
+The X-Axis of the runway.
+
 In GeoFS:
 - Transparant: Localizer not available or armed, if you click it, it will arm
 - Available: Localizer will immediately capture as soon as you click it
@@ -55,5 +58,8 @@ In GeoFS:
 
 GS:
 
-This glides the aircraft down to the runway, it makes sure you aren't too high, neither too low for final approach. The Y-Axis of the runway.
+This glides the aircraft down to the runway, it makes sure you aren't too high, neither too low for final approach. 
+
+The Y-Axis of the runway.
+
 In GeoFS: Exactly the same as the Localizer.
