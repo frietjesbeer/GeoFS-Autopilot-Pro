@@ -44,7 +44,7 @@ Autopilot on with both the Localizer and Glideslope armed, which means they will
 
 # How do the Localizer and Glideslope work?
 
-# LOC:
+LOC:
 
 This turns the aircraft onto the center of the runway axis, but does not influence the altitude, it only makes sure you are alligned with the runway. 
 The X-Axis of the runway.
@@ -55,7 +55,7 @@ In GeoFS:
 - Orange: Localizer armed, it will auto-capture as soon as it available
 - Green: Localizer captured
 
-# GS:
+GS:
 
 This glides the aircraft down to the runway, it makes sure you aren't too high, neither too low for final approach. 
 The Y-Axis of the runway.
