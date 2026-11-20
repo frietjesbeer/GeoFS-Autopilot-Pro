@@ -60,4 +60,4 @@ GS:
 This glides the aircraft down to the runway, it makes sure you aren't too high, neither too low for final approach. 
 The Y-Axis of the runway.
 
-In GeoFS: Exactly the same as the Localizer.
+In GeoFS: The button works exactly the same as the Localizer.
