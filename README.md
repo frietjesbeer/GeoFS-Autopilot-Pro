@@ -2,8 +2,8 @@
 
 An upgraded version of the default Autopilot panel in GeoFS. It adds a localizer and glideslope with realistic range.
 
-LOC range: 30nm
-GS range: 15nm and within 8 degrees of the runway axis
+- LOC range: 30nm
+- GS range: 15nm and within 8 degrees of the runway axis
 
 The panel is also visible when not turned on, which means you can set everything before engaging Autopilot.
 
@@ -40,3 +40,20 @@ Autopilot off but both the Localizer and Glideslope are available.
 
 Autopilot on with both the Localizer and Glideslope armed, which means they will automatically capture as soon as they're available.
 
+
+
+# How do the Localizer and Glideslope work?
+
+LOC:
+
+This turns the aircraft onto the center of the runway axis, but does not influence the altitude, it only makes sure you are alligned with the runway. The X-Axis of the runway.
+In GeoFS:
+- Transparant: Localizer not available or armed, if you click it, it will arm
+- Available: Localizer will immediately capture as soon as you click it
+- Orange: Localizer armed, it will auto-capture as soon as it available
+- Green: Localizer captured
+
+GS:
+
+This glides the aircraft down to the runway, it makes sure you aren't too high, neither too low for final approach. The Y-Axis of the runway.
+In GeoFS: Exactly the same as the Localizer.
